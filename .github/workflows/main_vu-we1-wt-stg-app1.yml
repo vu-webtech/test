@@ -30,6 +30,5 @@ jobs:
       uses: azure/webapps-deploy@v2
       with:
         app-name: 'vu-we1-wt-stg-app1'
-        slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_e0893464d0924ad5a05bf106394cb1a1 }}
         package: .
